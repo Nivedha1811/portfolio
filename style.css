@@ -94,7 +94,7 @@ body{
 }
 
 .home-elements h1{
-    font-size: 57px;
+    font-size: 56px;
     font-weight: 400;
 }
 
@@ -837,7 +837,7 @@ p{
   }
 
   .home-elements h1 {
-    font-size: 36px;
+    font-size: 33px;
   }
 
   .home-elements h2 {
@@ -853,7 +853,7 @@ p{
   }
   .btn {
     padding: 10px 25px;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   /* about */
@@ -889,7 +889,7 @@ p{
   .card-container {
     width: 100%;
     height: 350px;
-    padding: 8px;
+    padding: 6px;
   }
   .card-container p{
     font-size: 14px;
@@ -945,12 +945,12 @@ p{
   }
 
   .card-back h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 0;
   }
 
   .tech-stack span {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   /* contact */
@@ -968,7 +968,9 @@ p{
   .contact-form {
     padding: 10px;
   }
-
+    .contact-content .contact-para{
+    font-size: 21px;
+    }
   .input-item,
   .submit-btn {
     font-size: 15px;
