@@ -863,7 +863,9 @@ p{
     padding: 15px;
     text-align: center;
   }
-
+    .about-info p{
+    font-size:16px;
+    }
   .about-main .quote {
     font-size: 16px;
     padding: 15px;
@@ -969,7 +971,7 @@ p{
     padding: 10px;
   }
     .contact-content .contact-para{
-    font-size: 21px;
+    font-size: 17px;
     }
   .input-item,
   .submit-btn {
