@@ -24,16 +24,34 @@ function openMenu() {
 
 function closeMenu() {
   navLinks.classList.remove("active");
-  hamburger.style.display = "block";
-  closeIcon.style.display = "none";
+
+  if (window.innerWidth <= 768) {
+    hamburger.style.display = "block";
+    closeIcon.style.display = "none";
+  } else {
+    hamburger.style.display = "none";
+    closeIcon.style.display = "none";
+  }
 }
 
-// Optional: Auto close menu on link click
+// Auto close on resize or nav link click
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    navLinks.classList.remove("active");
+    hamburger.style.display = "none";
+    closeIcon.style.display = "none";
+  } else {
+    hamburger.style.display = "block";
+    closeIcon.style.display = "none";
+  }
+});
+
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => {
     closeMenu();
   });
 });
+
 
 
 // ========== Progress Bars Reload on Scroll ==========
@@ -77,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   window.addEventListener('scroll', animateSkills);
-  animateSkills(); // trigger once on load
+  animateSkills(); 
 });
 
 // ========== SweetAlert2 Form Validation ==========
