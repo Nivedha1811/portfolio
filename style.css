@@ -71,6 +71,10 @@ body{
   display: flex;
   gap: 20px;
 }
+.hamburger,
+.close-icon {
+  display: none;
+}
 
 /* ===== Mobile View ===== */
 @media (max-width: 768px) {
