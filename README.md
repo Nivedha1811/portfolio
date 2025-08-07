@@ -7,8 +7,5 @@ Visit here: nivedhaportfolio.netlify.app
 
 **Tech Stack Used**
 
-HTML
-CSS
-Bootstrap
-JavaScript
+HTML, CSS, Bootstrap, JavaScript.
 
