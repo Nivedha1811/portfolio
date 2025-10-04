@@ -746,7 +746,9 @@ p{
 
 
 @media (max-width: 768px) {
-
+*{
+    font-family: poppins;
+}
   /*navbar*/
   .navbar {
     flex-direction: column;
@@ -832,7 +834,7 @@ p{
 
   .home-img .img-info {
     width: 70vw;
-    height: 70vw;
+    height: 60vw;
     margin: 20px auto;
   }
 
@@ -1103,8 +1105,3 @@ p{
 
 }
 }
-
-
-
-
-
