@@ -831,13 +831,11 @@ p{
     text-align: center;
     padding: 40px 5% 0;
   }
-  .home-img{
-      margin-top:-30px;
-  }
+  
   .home-img .img-info {
     width: 70vw;
     height: 70vw;
-    margin: 20px auto;
+    margin: 30px auto;
   }
 
   .home-elements h1 {
@@ -1107,6 +1105,7 @@ p{
 
 }
 }
+
 
 
 
