@@ -831,10 +831,12 @@ p{
     text-align: center;
     padding: 40px 5% 0;
   }
-
+  .home-img{
+      margin-bottom:20px;
+  }
   .home-img .img-info {
     width: 70vw;
-    height: 60vw;
+    height: 70vw;
     margin: 20px auto;
   }
 
@@ -1105,3 +1107,4 @@ p{
 
 }
 }
+
