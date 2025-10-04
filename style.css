@@ -832,7 +832,7 @@ p{
     padding: 40px 5% 0;
   }
   .home-img{
-      margin-top:20px;
+      margin-top:-30px;
   }
   .home-img .img-info {
     width: 70vw;
@@ -1107,5 +1107,6 @@ p{
 
 }
 }
+
 
 
