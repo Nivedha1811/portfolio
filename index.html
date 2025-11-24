@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
+
 <body>
     <!-- navbar-->
-    
     <nav class="navbar">
         <a href="#" class="logo">Portfolio</a>
         <div class="hamburger" id="hamburger" onclick="openMenu()">&#9776;</div>
-        
         <div class="close-icon" id="closeIcon" onclick="closeMenu()">&#10006;</div>
         <ul class="nav-links" id="navLinks">
             <li><a href="#mainhome">Home</a></li>
@@ -23,166 +23,129 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
-            
         </ul>
-    </nav>           
+    </nav>
     <!--main home-->
-    <section id = "mainhome"class="home">
+    <section id="mainhome" class="home">
         <div class="home-elements">
-            <h1>Hello! I'm<span class="namespan" > Nivedha M</span></h1>
+            <h1>Hello! I'm<span class="namespan"> Nivedha M</span></h1>
             <h2 class="home-heading"><span class="highlight"> An MCA Graduate</span></h2>
-            <p>Full-Stack Web Developer | Python, Flask & SQL | Passionate About Building Scalable & User-Centric Applications</p>
+            <p>Frontend Developer | HTML, CSS, JS & React</p>
+            <p>Passionate About Building Scalable & User-Centric Applications</p>
             <div class="btn-icon">
-                <a href="Nivedha_FSD.pdf" class="btn" download>Download CV</a>
-                <a href="mailto:nivedha1811@gmail.com" class="btn cont">Hire Me!</a>
-            </div>
-        </div>
-        <div class="home-img">
-            <div class="img-info">
-                <div class="img-item">
-                    <img src="nivedha.jpg" alt="">
-                </div>
+                <a href="NIVEDHA_M_RESUME.pdf" class="btn" download>Download CV</a>
+                <a class="btn cont">Hire Me!</a>
             </div>
         </div>
     </section>
     <!--about me-->
-    <section id="about"class="about-main">
+    <section id="about">
         <h2 class="about-heading">
             About <span class="highlight">Me</span>
         </h2>
-        <div class="about-info">
-            <p> I am a recent MCA graduate with hands-on experience in building scalable web solutions. 
-                Skilled in Python, SQL and Web Development, I am passionate about solving problems through technology and delivering
-                user-centric applications. With an eagerness to learn and adapt, I aim to grow as a Full-stack Web developer, 
-                contributing innovative and efficient solutions to real-world challenges. </p>
-            <p class="quote">
-                <span>I Have Always Believed that Process is more important than results.</span>
-                <span class="ms-span"> - MS Dhoni</span>
-            </p>
+        <div class="about-main">
+            <div class="about-info">
+                <p id="about-para">
+                    I am a recent MCA graduate with a strong passion for Front-End Development and
+                    creating clean, responsive, and user-friendly web interfaces. Skilled in HTML, CSS,
+                    JavaScript, Python, and MySQL, I enjoy transforming ideas into interactive digital experiences.
+                    I focus on writing efficient, scalable code and building modern UI components that enhance user
+                    engagement. With a continuous learning mindset, I am eager to grow as a Front-End Developer
+                    and contribute to building intuitive, high-quality web applications.
+                </p>
+            </div>
+            <div class="home-img">
+                <div class="img-info">
+                    <div class="img-item">
+                        <img src="nivedha.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--skills-->
-    <section id="skills"class="skills-section">
+    <section id="skills" class="skills-section">
         <h2 class="skill-heading">
             My <span class="highlight">Skills</span>
         </h2>
-        <div class="skills-content">
-            <div class="skill-list">
-                <div class="skill-info">
-                    <div class="progress-bar">
-                        <div class="html-bar">80%</div>
-                    </div> 
-                    <p class="skill-name">Html & Css</p>
-                </div>
-                <div class="skill-info">
-                    <div class="progress-bar">
-                        <div class="python-bar">70%</div>
-                    </div> 
-                    <p class="skill-name">Python</p>
-                </div>
-                <div class="skill-info">
-                    <div class="progress-bar">
-                        <div class="mysql-bar">75%</div>
-                    </div> 
-                    <p class="skill-name">Mysql</p>
-                </div>
-                <div class="skill-info">
-                    <div class="progress-bar">
-                        <div class="english-bar">90%</div>
-                    </div> 
-                    <p class="skill-name">Communication Skills</p>
-                </div>
-            </div>    
-            <div class="card-container">
-                <h2 class="card-heading">
-                    What I Do?
-                </h2>
-                <p>I specialize in building clean, responsive, and user-friendly applications by combining elegant UI design with efficient backend logic.
-                    Skilled in Python, Flask, SQL, HTML, CSS, Figma, and Bootstrap, I have hands-on experience developing projects
-                    and a strong foundation full-stack development, I am eager to expand my knowledge in deploying and managing scalable solutions.
-                </p>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class='bx bxl-html5'></i>
+                <p>HTML</p>
+            </div>
+
+            <div class="skill-card">
+                <i class='bx bxl-css3'></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card">
+                <i class='bx bxl-javascript'></i>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <i class='bx bxl-figma'></i>
+                <p>Figma</p>
+            </div>
+
+            <div class="skill-card">
+                <i class='bx bxl-python'></i>
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <i class='bx bxl-react'></i>
+                <p>React (Currently Exploring)</p>
             </div>
         </div>
+
     </section>
     <!--projects-->
-    <section id="projects"class="project-container">
-        <h2 class="project-heading">
-            Recent <span class="highlight">Projects</span>
-        </h2>
-        <div class="project-content">
+    <section id="projects" class="project-section">
+        <h2 class="project-heading">Recent <span class="highlight">Projects</span></h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
             <div class="project-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="tv.jpeg" alt="">
-                        <div class="card-content">
-                            <h3>TV Net Manager</h3>
-                            <p>Developed to reduce the manual workload of TV operators by enabling CRUD operations.
-                            </p>
-                        </div>
+                <img src="fraud.png" alt="Fraud Guard" class="project-img">
+                <div class="project-info">
+                    <h3>Fraud Guard</h3>
+                    <p>Detects fraudulent transactions using ML for secure e-commerce operations.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Flask</span><span>Scikit-Learn</span>
                     </div>
-                    <div class="card-back">
-                        <h2>Web Application</h2>
-                        <h3>Tech Stack used</h3>
-                            <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            </div>
-                        <div>
-                            <a href="#" class="btn">Github</a>
-                        </div>
-                    </div>
+                    <a href="https://github.com/Nivedha1811/Real-Time-Fraud-Detection-in-E-Commerce"
+                        class="project-btn">GitHub</a>
                 </div>
             </div>
+            <!-- Project 2 -->
             <div class="project-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="fraud.jpeg" alt="">
-                        <div class="card-content">
-                            <h3>Fraud Guard </h3>
-                            <p>Detect fraudulent transactions in e-commerce platforms using machine learning techniques.</p>
-                        </div>
+                <img src="stayhub.png" alt="Stay Hub" class="project-img">
+                <div class="project-info">
+                    <h3>Stay Hub</h3>
+                    <p>Figma design for a student-friendly platform to explore hostels, food options, reviews, testimonials, and book rooms.</p>
+                    <div class="tech-stack">
+                        <span>Figma</span>
                     </div>
-                    <div class="card-back">
-                        <h2>Machine learning</h2>
-                        <h3>Tech Stack used</h3>
-                            <div class="tech-stack">
-                            <span>PYTHON</span>
-                            <span>FLASK</span>
-                            <span>SCIKIT-LEARN</span>
-                            </div>
-                        <div>
-                        <a href="https://github.com/Nivedha1811/Real-Time-Fraud-Detection-in-E-Commerce" class="btn">Github</a>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="project-card">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="portfolio.jpeg" alt="">
-                        <div class="card-content">
-                            <h3>Portfolio</h3>
-                            <p>Built a portfolio to demonstrate my learning progress, skills, and journey.</p>
-                        </div>
-                    </div>
-                    <div class="card-back">
-                        <h2>Web Designing</h2>
-                        <h3>Tech Stack used</h3>
-                            <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JS</span>
-                            </div>
-                        <div>
-                            <a href="https://github.com/Nivedha1811/portfolio" class="btn">Github</a>
-                        </div>
-                    </div>
+                    <a href="#" class="project-btn">GitHub</a>
                 </div>
             </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="work.png" alt="Work Tracker" class="project-img">
+                <div class="project-info">
+                    <h3>Work Tracker</h3>
+                    <p>A simple mini-website to track daily tasks in day-to-day life.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <a href="https://github.com/Nivedha1811/portfolio" class="project-btn">GitHub</a>
+                </div>
+            </div>
+
         </div>
     </section>
+
     <!--Experience-->
     <section id="experience">
         <div class="exp-container">
@@ -198,19 +161,20 @@
                     </div>
                     <div class="icon-date">
                         <div class="icon"><i class='bx bx-book-reader'></i></div>
-                        
+
                     </div>
                 </div>
                 <div class="timeline-item right">
                     <div class="content">
                         <h2>Web Development Internship</h2>
                         <h4 class="content-date">FEB 2024 - MAR 2024</h4>
-                        <p>Worked as a Web Developer Intern at Renacto Enterprise Solutions, contributing to their project for Nanoceut Therapeutics and
+                        <p>Worked as a Web Developer Intern at Renacto Enterprise Solutions, contributing to their
+                            project for Nanoceut Therapeutics and
                             gained hands-on experience in real-world web development.</p>
                     </div>
                     <div class="icon-date">
                         <div><i class='bx bx-expand-horizontal'></i></div>
-                        
+
                     </div>
                 </div>
                 <div class="timeline-item left">
@@ -224,10 +188,10 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
     <!--Contact-->
-    <section id="contact"class="contact">
+    <section id="contact" class="contact">
         <div class="contact-container">
             <div class="contact-me">
                 <h1>Lets Get in Touch !</h1>
@@ -243,9 +207,10 @@
                     <a href="mailto:nivedha1811@gmail.com">nivedha1811@gmail.com</a>
                 </div>
                 <div class="social-media">
-                <a href="https://github.com/Nivedha1811" ><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/nivedha1819/"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.instagram.com/_.nivedha_.nive?igsh=bG1tdTNseHBqbDMx"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/Nivedha1811"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/nivedha1819/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/_.nivedha_.nive?igsh=bG1tdTNseHBqbDMx"><i
+                            class='bx bxl-instagram'></i></a>
                 </div>
             </div>
         </div>
@@ -257,36 +222,15 @@
             </div>
             <form class="main-form" method="post" action="https://formspree.io/f/xjkrzoko">
                 <input type="text" name="name" placeholder="Your Name" required class="input-item">
-                <input type="email"name="email" placeholder="Your Email" required class="input-item">
+                <input type="email" name="email" placeholder="Your Email" required class="input-item">
                 <textarea name="message" rows="5" placeholder="Your Message" class="input-item"></textarea>
                 <input type="hidden" name="_redirect" value="thankyu.html">
                 <button type="submit" class="submit-btn">Submit</button>
             </form>
         </div>
     </section>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
