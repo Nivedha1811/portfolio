@@ -652,30 +652,30 @@ img:hover{
     font-size: 22px;
   }
  /* Home Section */
-  #mainhome {
-      flex-direction: column;
-      max-height: 300px;
-      padding: 5% 5% 0;
-      text-align: center;
-  }
+ home {
+        flex-direction: column;
+        text-align: center;
+        padding: 20% 5% 10%;
+    }
 
-  .home-elements h1 {
-      font-size: 40px;
-  }
+    .home-elements h1 {
+        font-size: 28px;
+    }
 
-  .home-elements h2 {
-      font-size: 28px;
-  }
+    .home-heading {
+        font-size: 22px;
+    }
 
-  .home-elements p {
-      font-size: 15px;
-  }
+    .home-elements p {
+        font-size: 14px;
+    }
 
-  .home-elements .btn-icon {
-      flex-direction: row;
-      gap: 20px;
-  }
-
+    .btn-icon {
+        justify-content: center;
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+    }
   /* About Section */
   .about-main {
       flex-direction: column;
@@ -863,6 +863,7 @@ img:hover{
 
 }
 }
+
 
 
 
