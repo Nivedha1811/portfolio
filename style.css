@@ -668,8 +668,8 @@ img:hover{
  /* Home Section */
   .home {
       flex-direction: column;
-      height: auto;
-      padding: 20% 5% 0;
+      height: 300px;
+      padding: 5% 5% 0;
       text-align: center;
   }
 
@@ -877,5 +877,6 @@ img:hover{
 
 }
 }
+
 
 
