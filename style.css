@@ -651,24 +651,10 @@ img:hover{
   .nav-links li a {
     font-size: 22px;
   }
- 
-  .nav-links::before {
-    content: 'Portfolio';
-    display: block;
-    font-size: 35px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-    background: linear-gradient(#78cde2,#eb3a84);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
  /* Home Section */
   .home {
       flex-direction: column;
-      height: 300px;
+      max-height: 300px;
       padding: 5% 5% 0;
       text-align: center;
   }
@@ -732,7 +718,7 @@ img:hover{
   /* contact */
 
   .contact {
-    flex-direction: column;
+    flex-direction: row;
     padding: 40px 5%;
     gap: 30px;
   }
@@ -877,6 +863,7 @@ img:hover{
 
 }
 }
+
 
 
 
