@@ -672,6 +672,7 @@ img:hover{
     flex-direction: column;
     text-align: center;
     padding: 40px 5% 0;
+    max-heigth:400px;
   }
   .img-item{
     margin-top:0px;
@@ -914,3 +915,4 @@ img:hover{
 
 }
 }
+
