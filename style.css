@@ -665,44 +665,6 @@ img:hover{
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-
-  /* home */
-
-  .home {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px 5% 0;
-    max-heigth:400px;
-  }
-  .img-item{
-    margin-top:0px;
-  }
-  .home-img .img-info {
-    width: 70vw;
-    height: 70vw;
-    margin: 30px auto;
-  }
-
-  .home-elements h1 {
-    font-size: 33px;
-  }
-
-  .home-elements h2 {
-    font-size: 24px;
-  }
-
-  .home-elements p {
-    font-size: 18px;
-  }
-  .btn-icon{
-    justify-content: center;
-    align-items: center;
-  }
-  .btn {
-    padding: 10px 25px;
-    font-size: 15px;
-  }
-
  /* Home Section */
   .home {
       flex-direction: column;
@@ -915,4 +877,5 @@ img:hover{
 
 }
 }
+
 
