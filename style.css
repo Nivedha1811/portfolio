@@ -11,7 +11,7 @@ html {
 
 body {
   background: #000;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 /*nav bar */
@@ -71,6 +71,9 @@ body {
 
 /* home */
 /* Home Section */
+#mainhome {
+  padding-bottom:0;
+  }
 .home {
   display: flex;
   align-items: center;
@@ -963,6 +966,7 @@ img:hover {
 
   }
 }
+
 
 
 
