@@ -744,16 +744,16 @@ img:hover {
 }
 
 /* Buttons */
-.btn-icon a {
+.home-elements .btn-icon  {
   padding: 8px 18px;
   font-size: 14px;
   border-radius: 8px;
 }
 
 /* Icons inside buttons */
-.btn-icon i {
-  font-size: 16px;             /* <<< Smaller icons */
-  margin-right: 5px;
+.btn-icon .social-media{
+  font-size: 20px;             /* <<< Smaller icons */
+  margin-top: 25px;
 }
 
   /* ABOUT */
@@ -950,6 +950,7 @@ img:hover {
 
   }
 }
+
 
 
 
