@@ -825,7 +825,7 @@ img:hover {
   }
   .contact-content .icon {
     font-size:12px;
-    max-width: 60px;
+    padding:8px 20px;
      }
   .input-item,
   .submit-btn {
@@ -957,6 +957,7 @@ img:hover {
 
   }
 }
+
 
 
 
