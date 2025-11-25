@@ -734,7 +734,7 @@ img:hover {
 }
 
 /* BUTTON + ICON ROW FIXED */
-.btn-icon {
+.btn, .btn-cont {
   margin-top: 20px;
   display: flex;
   flex-direction: row;         /* <<< Buttons next to each other */
@@ -950,6 +950,7 @@ img:hover {
 
   }
 }
+
 
 
 
