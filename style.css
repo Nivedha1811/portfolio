@@ -666,7 +666,10 @@ img:hover {
   * {
     font-family: poppins;
   }
-
+   section {
+      margin: 0;
+      padding-bottom: 0;
+  }
   /* NAVBAR */
   .navbar {
     flex-direction: column;
@@ -715,7 +718,7 @@ img:hover {
   #mainhome {
     flex-direction: column;
     text-align: center;
-    padding: 20px 5% 40px;
+    padding: 20px 5% 0px;
   }
 
   .home-elements h1 {
@@ -761,9 +764,6 @@ img:hover {
     font-size: 26px;
   }
   /* ABOUT */
-  #about{
-    padding-top:25%;
-     }
   .about-main {
     flex-direction: column;
     padding: 40px 5%;
@@ -963,6 +963,7 @@ img:hover {
 
   }
 }
+
 
 
 
