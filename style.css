@@ -713,68 +713,50 @@ img:hover {
 
   /* HOME */
   #mainhome {
-  flex-direction: column;
-  text-align: center;
-  padding: 20px 5% 40px;
-}
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 5% 40px;
+  }
 
-/* Heading Sizes */
-.home-elements h1 {
-  font-size: 32px;
-}
+  .home-elements h1 {
+    font-size: 32px;
+  }
 
-.home-elements h2 {
-  font-size: 22px;
-}
+  .home-elements h2 {
+    font-size: 22px;
+  }
 
-.home-elements p {
-  font-size: 14px;
-  margin-top: 8px;
-  text-indent: 0;
-}
-.btn-icon {
-  display: flex;
-  justify-content: center;
-  gap: 15px;               /* space between buttons */
-  margin-bottom: 20px;
-}
+  .home-elements p {
+    font-size: 14px;
+    margin-top: 8px;
+    text-indent: 0;
+  }
 
-.btn-icon a {
-  padding: 10px 20px;
-  font-size: 14px;
-  border-radius: 8px;
-  background: #9b83dd;
-  color: #000;
-  font-weight: 600;
-  display: inline-block;
-}
-.btn-icon .btn-cont {
-  background: #26dce2;
-}
+  /* ---------- BUTTON ROW (FIRST LINE) ---------- */
+  .btn-icon {
+    display: flex;
+    flex-direction: row;     /* side by side */
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
 
-/* --- ICON ROW --- */
-.social-media {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 5px;
-}
+  .btn, .btn-cont {
+    padding: 10px 22px;
+    font-size: 16px;
+  }
 
-.social-media a {
-  font-size: 26px;
-  padding: 10px 12px;
-  border: 2px solid #33b1d1;
-  border-radius: 10px;
-  color: #fff;
-  transition: 0.3s;
-}
+  /* ---------- ICONS ROW (SECOND LINE) ---------- */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 18px;
+  }
 
-.social-media a:hover {
-  background: #0951ec;
-  border-color: #0951ec;
-  transform: scale(1.15);
-}
-
+  .social-media a {
+    font-size: 26px;
+  }
   /* ABOUT */
   .about-main {
     flex-direction: column;
@@ -969,6 +951,7 @@ img:hover {
 
   }
 }
+
 
 
 
