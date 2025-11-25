@@ -713,36 +713,48 @@ img:hover {
 
   /* HOME */
   #mainhome {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 5% 40px;
-  }
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 5% 40px;
+}
 
-  .home-elements h1 {
-    font-size: 32px;
-  }
+/* Heading Sizes */
+.home-elements h1 {
+  font-size: 32px;
+}
 
-  .home-elements h2 {
-    font-size: 22px;
-  }
+.home-elements h2 {
+  font-size: 22px;
+}
 
-  .home-elements p {
-    font-size: 14px;
-    margin-top: 8px;
-    text-indent: 0; /* remove indent on small screen */
-  }
+.home-elements p {
+  font-size: 14px;
+  margin-top: 8px;
+  text-indent: 0;
+}
 
-  .btn-icon {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    justify-content: center;
-  }
-  .btn-icon a{
-    padding: 10px 30px;
-    font-size:15px;
-    }
+/* BUTTON + ICON ROW FIXED */
+.btn-icon {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;         /* <<< Buttons next to each other */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;                   /* Space between buttons */
+}
+
+/* Buttons */
+.btn-icon a {
+  padding: 8px 18px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Icons inside buttons */
+.btn-icon i {
+  font-size: 16px;             /* <<< Smaller icons */
+  margin-right: 5px;
+}
 
   /* ABOUT */
   .about-main {
@@ -938,6 +950,7 @@ img:hover {
 
   }
 }
+
 
 
 
