@@ -70,7 +70,6 @@ body {
 }
 
 /* home */
-/* Home Section */
 
 .home {
   display: flex;
@@ -88,7 +87,6 @@ body {
   margin-top: 60px;
 }
 
-/* Headings */
 .home-elements h1 {
   font-size: 65px;
   font-weight: 400;
@@ -112,7 +110,7 @@ body {
   text-indent: 20px;
 }
 
-/* Buttons + Icons Row */
+
 .home-elements .btn-icon {
   margin-top: 25px;
   display: flex;
@@ -120,8 +118,9 @@ body {
   gap: 40px;
 }
 
-/* Buttons */
-.btn {
+
+.btn,
+.btn-cont {
   display: inline-block;
   padding: 10px 35px;
   border-radius: 12px;
@@ -139,19 +138,13 @@ body {
   background-color: #637ec9;
 }
 
-/* Hire Me Button */
-.btn-cont {
-  background: #26dce2;
-  color: #000;
-}
-
 .btn-cont:hover {
-  background: #18b6bb;
+  transform: scale(1.08);
+  background-color: #637ec9;
 }
 
-/* Icons */
 .btn-icon i {
-  font-size: 42px;   /* Increased icon size */
+  font-size: 42px;
   color: #26dce2;
   transition: 0.3s;
 }
@@ -160,18 +153,20 @@ body {
   transform: scale(1.2);
   color: #33b1d1;
 }
-.btn-cont{
-    border-radius:10px;
-    text-decoration:none;
-     }
-  .btn, .btn-cont {
-    padding: 10px 22px;
-    font-size: 16px;
-  }
 
-/* about*/
+.btn-cont {
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn,
+.btn-cont {
+  padding: 10px 22px;
+  font-size: 16px;
+}
+
 #about {
-  padding-top:150px;
+  padding-top: 150px;
 }
 
 .about-main {
@@ -293,7 +288,7 @@ img:hover {
   font-size: 6rem;
   margin-bottom: 10px;
   color: #6d8bed;
-  /* You can change color */
+
 }
 
 .skill-card p {
@@ -570,42 +565,42 @@ img:hover {
   padding: 0;
 }
 
-/* Icon Button Wrapper */
-.icon a {
+
+.contact-content .icon a {
   display: inline-block;
-  padding: 12px 16px;
+  padding: 10px 14px;
   border: 2px solid #33b1d1;
   border-radius: 12px;
-  font-size: 28px;       /* Bigger icons */
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
   margin-bottom: 20px;
   transition: 0.3s ease;
 }
 
-/* Icon Hover */
+
 .icon a:hover {
   background-color: #0951ec;
   color: #fff;
   border-color: #0951ec;
-  transform: scale(1.12);
+  transform: scale(1.0);
 }
 
-/* Social Media Row */
+
 .social-media {
   display: flex;
   gap: 18px;
   margin-top: 15px;
 }
 
-/* Social Media Icons */
+
 .social-media a {
-  font-size: 32px;      /* Increased size */
+  font-size: 32px;
   color: #33b1d1;
   transition: 0.3s ease;
 }
 
-/* Hover Effect */
+
 .social-media a:hover {
   color: #0951ec;
   transform: scale(1.15);
@@ -664,20 +659,19 @@ img:hover {
   background-color: #007fff;
 }
 
-
 /* ========== Mobile Responsive Adjustments ========== */
-
-
 
 @media (max-width: 768px) {
 
   * {
     font-family: poppins;
   }
-   section {
-      margin: 0;
-      padding-bottom: 0;
+
+  section {
+    margin: 0;
+    padding-bottom: 0;
   }
+
   /* NAVBAR */
   .navbar {
     flex-direction: column;
@@ -743,24 +737,28 @@ img:hover {
     text-indent: 0;
   }
 
-  /* ---------- BUTTON ROW (FIRST LINE) ---------- */
+
   .btn-icon {
     display: flex;
-    flex-direction: row;     /* side by side */
+    flex-direction: row;
+
     justify-content: center;
     gap: 12px;
     margin-top: 20px;
   }
-  .btn-cont{
-    border-radius:10px;
-    text-decoration:none;
-     }
-  .btn, .btn-cont {
+
+  .btn-cont {
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .btn,
+  .btn-cont {
     padding: 10px 22px;
     font-size: 16px;
   }
 
-  /* ---------- ICONS ROW (SECOND LINE) ---------- */
+
   .social-media {
     display: flex;
     justify-content: center;
@@ -771,10 +769,12 @@ img:hover {
   .social-media a {
     font-size: 26px;
   }
+
   /* ABOUT */
   #about {
-  padding-top:0;
-}
+    padding-top: 0;
+  }
+
   .about-main {
     flex-direction: column;
     padding: 40px 5%;
@@ -834,15 +834,16 @@ img:hover {
   .contact-content .contact-para {
     font-size: 16px;
   }
- .contact-content .icon a {
+
+  .contact-content .icon a {
     display: inline-block;
-    padding: 6px 10px;      /* smaller box */
-    font-size: 12px;        /* smaller text */
-    border: 1px solid #33b1d1; 
+    padding: 6px 10px;
+    font-size: 12px;
+    border: 1px solid #33b1d1;
     border-radius: 6px;
     color: #fff;
     text-decoration: none;
-}
+  }
 
   .input-item,
   .submit-btn {
@@ -850,7 +851,7 @@ img:hover {
     width: 100%;
   }
 
-.exp-container {
+  .exp-container {
     padding: 25px 3% 0;
   }
 
@@ -974,27 +975,3 @@ img:hover {
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
