@@ -821,7 +821,9 @@ img:hover {
     gap: 20px;
     text-align: center;
   }
-
+  contact-heading{
+    font-size:1.1rem;
+  }
   .contact-me h1 {
     font-size: 26px;
   }
@@ -975,3 +977,4 @@ img:hover {
 
   }
 }
+
