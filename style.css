@@ -820,9 +820,9 @@ img:hover {
   .contact-content .contact-para {
     font-size: 16px;
   }
-  .contact-content .icon a{
+  .contact-content .icon {
     font-size:17px;
-    max-width: 50px;
+    max-width: 100px;
      }
   .input-item,
   .submit-btn {
@@ -954,6 +954,7 @@ img:hover {
 
   }
 }
+
 
 
 
