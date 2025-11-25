@@ -732,28 +732,47 @@ img:hover {
   margin-top: 8px;
   text-indent: 0;
 }
-
-/* BUTTON + ICON ROW FIXED */
-.btn, .btn-cont {
-  margin-top: 20px;
+.btn-icon {
   display: flex;
-  flex-direction: row;         /* <<< Buttons next to each other */
   justify-content: center;
-  align-items: center;
-  gap: 10px;                   /* Space between buttons */
+  gap: 15px;               /* space between buttons */
+  margin-bottom: 20px;
 }
 
-/* Buttons */
-.home-elements .btn-icon  {
-  padding: 8px 18px;
+.btn-icon a {
+  padding: 10px 20px;
   font-size: 14px;
   border-radius: 8px;
+  background: #9b83dd;
+  color: #000;
+  font-weight: 600;
+  display: inline-block;
+}
+.btn-icon .btn-cont {
+  background: #26dce2;
 }
 
-/* Icons inside buttons */
-.btn-icon .social-media{
-  font-size: 20px;             /* <<< Smaller icons */
-  margin-top: 25px;
+/* --- ICON ROW --- */
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 5px;
+}
+
+.social-media a {
+  font-size: 26px;
+  padding: 10px 12px;
+  border: 2px solid #33b1d1;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  background: #0951ec;
+  border-color: #0951ec;
+  transform: scale(1.15);
 }
 
   /* ABOUT */
@@ -950,6 +969,7 @@ img:hover {
 
   }
 }
+
 
 
 
