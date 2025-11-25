@@ -823,10 +823,16 @@ img:hover {
   .contact-content .contact-para {
     font-size: 16px;
   }
-  .contact-content .icon {
-    font-size:12px;
-    padding:8px 20px;
-     }
+ .contact-content .icon a {
+    display: inline-block;
+    padding: 6px 10px;      /* smaller box */
+    font-size: 12px;        /* smaller text */
+    border: 1px solid #33b1d1; 
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+
   .input-item,
   .submit-btn {
     font-size: 14px;
@@ -957,6 +963,7 @@ img:hover {
 
   }
 }
+
 
 
 
