@@ -762,7 +762,7 @@ img:hover {
   }
   /* ABOUT */
   #about{
-    margin-top:150px;
+    margin-top:20%;
      }
   .about-main {
     flex-direction: column;
@@ -963,6 +963,7 @@ img:hover {
 
   }
 }
+
 
 
 
