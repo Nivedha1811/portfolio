@@ -70,83 +70,100 @@ body {
 }
 
 /* home */
+/* Home Section */
 .home {
   display: flex;
   align-items: center;
-  height: 70vh;
+  min-height: 70vh;
   padding: 50px 9% 0;
   color: #fff;
 }
 
 .home-elements {
-  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  line-height: 1.4;
+  margin-top: 60px;
 }
 
-.home-heading {
-  font-size: 40px;
-  color: #fff;
-  margin-bottom: 10px;
+/* Headings */
+.home-elements h1 {
+  font-size: 65px;
+  font-weight: 400;
 }
 
 .namespan {
   color: #33b1d1;
 }
 
-.home-elements h1 {
-  font-size: 65px;
-  font-weight: 400;
-}
-
 .home-elements h2 {
   font-size: 40px;
-  margin-top: 2px;
+  margin-top: 5px;
   color: #33b1d1;
 }
 
 .home-elements p {
-  font-size: 24px;
-  margin-top: 8px;
+  font-size: 22px;
+  margin-top: 10px;
+  word-spacing: 4px;
+  line-height: 1.6;
+  text-indent: 20px;
 }
 
+/* Buttons + Icons Row */
 .home-elements .btn-icon {
-  margin-top: 20px;
-  align-items: center;
+  margin-top: 25px;
   display: flex;
-  gap: 50px;
+  align-items: center;
+  gap: 40px;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
-  padding: 8px 30px;
-  border-radius: 10px;
+  padding: 10px 35px;
+  border-radius: 12px;
   background: #9b83dd;
   color: #000;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: 0.3s ease;
   text-decoration: none;
 }
 
 .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   background-color: #637ec9;
 }
 
-.cont {
-  background-color: #26dce2;
+/* Hire Me Button */
+.btn-cont {
+  background: #26dce2;
+  color: #000;
 }
 
-p {
-  word-spacing: 6px;
-  text-indent: 40px;
-  line-height: -4px;
+.btn-cont:hover {
+  background: #18b6bb;
 }
+
+/* Icons */
+.btn-icon i {
+  font-size: 42px;   /* Increased icon size */
+  color: #26dce2;
+  transition: 0.3s;
+}
+
+.btn-icon i:hover {
+  transform: scale(1.2);
+  color: #33b1d1;
+}
+
 
 /* about*/
 #about {
-  padding-top: 50px;
+  margin-top: 150px;
 }
 
 .about-main {
@@ -545,36 +562,45 @@ img:hover {
   padding: 0;
 }
 
+/* Icon Button Wrapper */
 .icon a {
   display: inline-block;
-  padding: 12px 15px;
+  padding: 12px 16px;
   border: 2px solid #33b1d1;
-  border-radius: 10px;
-  font-size: 22px;
+  border-radius: 12px;
+  font-size: 28px;       /* Bigger icons */
   color: #fff;
   text-decoration: none;
   margin-bottom: 20px;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
+/* Icon Hover */
 .icon a:hover {
   background-color: #0951ec;
-  color: #000;
+  color: #fff;
   border-color: #0951ec;
+  transform: scale(1.12);
 }
 
+/* Social Media Row */
 .social-media {
   display: flex;
-  gap: 15px;
+  gap: 18px;
+  margin-top: 15px;
 }
 
+/* Social Media Icons */
 .social-media a {
+  font-size: 32px;      /* Increased size */
   color: #33b1d1;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
+/* Hover Effect */
 .social-media a:hover {
   color: #0951ec;
+  transform: scale(1.15);
 }
 
 .contact-form {
