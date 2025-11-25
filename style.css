@@ -820,10 +820,7 @@ img:hover {
     padding: 40px 5%;
     gap: 20px;
     text-align: center;
-  }
-  contact-heading{
-    font-size:1rem;
-  }
+   }
   .contact-me h1 {
     font-size: 26px;
   }
@@ -832,7 +829,9 @@ img:hover {
     width: 100%;
     padding: 10px 0;
   }
-
+  .contact-form h1{
+    font-size:1rem;
+  }
   .contact-content .contact-para {
     font-size: 16px;
   }
@@ -977,5 +976,6 @@ img:hover {
 
   }
 }
+
 
 
