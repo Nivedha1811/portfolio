@@ -741,7 +741,7 @@ img:hover {
     margin-top: 20px;
   }
   .btn-cont{
-    border-radius:20px;
+    border-radius:10px;
     text-decoration:none;
      }
   .btn, .btn-cont {
@@ -820,8 +820,8 @@ img:hover {
   .contact-content .contact-para {
     font-size: 16px;
   }
-  .contact-content .icon{
-    font-size:22px;
+  .contact-content .icon a{
+    font-size:17px;
     max-width: 50px;
      }
   .input-item,
@@ -954,6 +954,7 @@ img:hover {
 
   }
 }
+
 
 
 
