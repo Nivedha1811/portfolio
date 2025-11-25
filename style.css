@@ -547,10 +547,10 @@ img:hover {
 
 .icon a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 12px 15px;
   border: 2px solid #33b1d1;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 22px;
   color: #fff;
   text-decoration: none;
   margin-bottom: 20px;
@@ -566,7 +566,6 @@ img:hover {
 .social-media {
   display: flex;
   gap: 15px;
-  font-size: 27px;
 }
 
 .social-media a {
@@ -713,7 +712,7 @@ img:hover {
     font-size: 35px;
   }
 
-  .home-heading h2 {
+  .highlight {
     font-size: 22px;
   }
 
@@ -728,11 +727,9 @@ img:hover {
     margin-top: 20px;
   }
 
-  .btn,
-  .btn-cont {
-    max-width: 30px;
+  .btn {
+    max-width: fit-content;
     justify-content: space-evenly;
-    height: auto;
   }
 
   /* About Section */
